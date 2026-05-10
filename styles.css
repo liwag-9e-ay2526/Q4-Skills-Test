@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.login-body{
+    background: linear-gradient(to bottom right, #b9b9d8, #4c4c69);
+    height: 100vh;
+}
+
+.login-container{
+    width: 400px;
+    background-color: #7b838c;
+    padding: 40px;
+    border-radius: 40px;
+    margin: 80px auto;
+    box-shadow: 0px 0px 15px #444;
+}
+
+.login-logo{
+    width: 80px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+.nav-section{
+    width: 220px;
+    min-height: 100vh;
+    background-color: #1d2330;
+}
+
+.logo{
+    width: 80px;
+    display: block;
+    margin: auto;
+}
+
+.nav-section ul{
+    list-style: none;
+    padding: 0;
+}
+
+.nav-section li{
+    margin-bottom: 15px;
+}
+
+.nav-section a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-section a:hover{
+    color: #00d9ff;
+}
+
+.output-box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
